@@ -1,0 +1,20 @@
+c:\users\vantrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\bin\Debug\Souen Inspection.exe.config
+c:\users\vantrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\obj\Debug\Souen Inspection.vbprojResolveAssemblyReference.cache
+c:\users\vantrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\obj\Debug\Souen_Inspection.FrmManHinhChinh.resources
+c:\users\vantrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\obj\Debug\Souen_Inspection.FrmNhapMaVach.resources
+c:\users\vantrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\obj\Debug\Souen_Inspection.Resources.resources
+c:\users\vantrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\obj\Debug\Souen Inspection.vbproj.GenerateResource.Cache
+c:\users\vantrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\obj\Debug\Souen Inspection.xml
+c:\users\vantrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\bin\Debug\Souen Inspection.exe
+c:\users\vantrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\bin\Debug\Souen Inspection.pdb
+c:\users\vantrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\bin\Debug\Souen Inspection.xml
+c:\users\vantrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\obj\Debug\Souen Inspection.exe
+c:\users\vantrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\obj\Debug\Souen Inspection.pdb
+C:\Users\VanTrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\obj\Debug\Souen_Inspection.FrmManHinhNhapDuLieu.resources
+C:\Users\VanTrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\VanTrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\VanTrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\VanTrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\VanTrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\obj\Debug\Souen Inspection.vbproj.ResolveComReference.cache
+C:\Users\VanTrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\obj\Debug\Souen_Inspection.Form1.resources
+C:\Users\VanTrinh\Documents\Visual Studio 2015\Projects\Souen Inspection\Souen Inspection\obj\Debug\Souen_Inspection.FrmSetup.resources

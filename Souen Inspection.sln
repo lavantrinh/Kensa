@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Souen Inspection", "Souen Inspection\Souen Inspection.vbproj", "{5774A04B-E3A2-4245-AD15-8A180A32D88C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{07076D37-BB97-44A1-BED9-E844E1C8AB54}"
+	ProjectSection(SolutionItems) = preProject
+		Setup.xml = Setup.xml
+		XMLFile1.xml = XMLFile1.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5774A04B-E3A2-4245-AD15-8A180A32D88C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5774A04B-E3A2-4245-AD15-8A180A32D88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5774A04B-E3A2-4245-AD15-8A180A32D88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5774A04B-E3A2-4245-AD15-8A180A32D88C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
