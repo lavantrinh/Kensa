@@ -26,6 +26,9 @@ Partial Class FrmManHinhChinh
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ViewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.設定ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.新図面情報入力ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.図面情報調整ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.MenuStrip1.SuspendLayout()
@@ -55,9 +58,28 @@ Partial Class FrmManHinhChinh
         '
         'ToolsToolStripMenuItem
         '
+        Me.ToolsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.設定ToolStripMenuItem, Me.新図面情報入力ToolStripMenuItem, Me.図面情報調整ToolStripMenuItem})
         Me.ToolsToolStripMenuItem.Name = "ToolsToolStripMenuItem"
         Me.ToolsToolStripMenuItem.Size = New System.Drawing.Size(48, 20)
         Me.ToolsToolStripMenuItem.Text = "&Tools"
+        '
+        '設定ToolStripMenuItem
+        '
+        Me.設定ToolStripMenuItem.Name = "設定ToolStripMenuItem"
+        Me.設定ToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.設定ToolStripMenuItem.Text = "&設定"
+        '
+        '新図面情報入力ToolStripMenuItem
+        '
+        Me.新図面情報入力ToolStripMenuItem.Name = "新図面情報入力ToolStripMenuItem"
+        Me.新図面情報入力ToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.新図面情報入力ToolStripMenuItem.Text = "新図面情報入力"
+        '
+        '図面情報調整ToolStripMenuItem
+        '
+        Me.図面情報調整ToolStripMenuItem.Name = "図面情報調整ToolStripMenuItem"
+        Me.図面情報調整ToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.図面情報調整ToolStripMenuItem.Text = "図面情報調整"
         '
         'StatusStrip1
         '
@@ -102,4 +124,7 @@ Partial Class FrmManHinhChinh
     Friend WithEvents ToolsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents StatusStrip1 As StatusStrip
     Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
+    Friend WithEvents 設定ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents 新図面情報入力ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents 図面情報調整ToolStripMenuItem As ToolStripMenuItem
 End Class

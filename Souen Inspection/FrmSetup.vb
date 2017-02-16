@@ -11,6 +11,7 @@ Public Class FrmSetup
 
     Private Sub FrmSetup_Load(sender As Object, e As EventArgs) Handles Me.Load
         Dim DuongDanFolder = XDocument.Load(My.Application.Info.DirectoryPath & "\setup.xml")
+        txtDuongDanFileDuLieu.Text = DuongDanFolder.<setup>.<ResourceFolder>.Value
         TextBox1.Text = DuongDanFolder.<setup>.<DrawingFolder>.Value
         TextBox2.Text = DuongDanFolder.<setup>.<PictureFolder>.Value
         TextBox3.Text = DuongDanFolder.<setup>.<SaveFolder>.Value
@@ -35,14 +36,23 @@ Public Class FrmSetup
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim MyXML As New XmlDocument()
         MyXML.Load(My.Application.Info.DirectoryPath & "\setup.xml")
+        Dim DuongDanFileDuLieu As XmlNode = MyXML.SelectSingleNode("/setup/ResourceFolder")
         Dim DuongDanBanVeLNode1 As XmlNode = MyXML.SelectSingleNode("/setup/DrawingFolder")
         Dim DuongDanAnhSanPHamNode2 As XmlNode = MyXML.SelectSingleNode("/setup/PictureFolder")
         Dim DuongDanSave As XmlNode = MyXML.SelectSingleNode("/setup/SaveFolder")
+
         'luu duong dan moi
+        DuongDanFileDuLieu.ChildNodes(0).InnerText = txtDuongDanFileDuLieu.Text
         DuongDanBanVeLNode1.ChildNodes(0).InnerText = TextBox1.Text
         DuongDanAnhSanPHamNode2.ChildNodes(0).InnerText = TextBox2.Text
         DuongDanSave.ChildNodes(0).InnerText = TextBox3.Text
         MyXML.Save(My.Application.Info.DirectoryPath & "\setup.xml")
         Me.Hide()
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        If FolderBrowserDialog1.ShowDialog() = DialogResult.OK Then
+            txtDuongDanFileDuLieu.Text = FolderBrowserDialog1.SelectedPath
+        End If
     End Sub
 End Class

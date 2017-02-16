@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <setup>
+  <ResourceFolder>C:\Users\Mr La\Dropbox\ホシザキ検査成績書WORD\ホシザキ電機検査成績書\新しいフォルダー</ResourceFolder>
   <DrawingFolder>C:\Users\Mr La\Documents</DrawingFolder>
   <PictureFolder>C:\Users\Mr La\Desktop</PictureFolder>
   <SaveFolder>C:\Users\Mr La\Documents\My Web Sites</SaveFolder>
-<Staff>
-<Staff1>Ito</Staff1>
-<Staff2>Duy</Staff2>
-<Staff3>Yamada</Staff3>
-</Staff>
+  <Staff>
+    <Staff1>伊藤</Staff1>
+    <Staff2>ユイ</Staff2>
+    <Staff3>山田</Staff3>
+    <NguoiDuyet>山田</NguoiDuyet>
+  </Staff>
 </setup>

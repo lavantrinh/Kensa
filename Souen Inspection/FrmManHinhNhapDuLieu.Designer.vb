@@ -131,6 +131,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.CheckBox12 = New System.Windows.Forms.CheckBox()
         Me.CheckBox13 = New System.Windows.Forms.CheckBox()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.btnInKetQua = New System.Windows.Forms.Button()
         CType(Me.AxAcroPDF1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -326,7 +327,7 @@ Partial Class FrmManHinhNhapDuLieu
         'btbHoanThanh
         '
         Me.btbHoanThanh.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btbHoanThanh.Location = New System.Drawing.Point(345, 777)
+        Me.btbHoanThanh.Location = New System.Drawing.Point(202, 777)
         Me.btbHoanThanh.Name = "btbHoanThanh"
         Me.btbHoanThanh.Size = New System.Drawing.Size(127, 40)
         Me.btbHoanThanh.TabIndex = 6
@@ -336,7 +337,7 @@ Partial Class FrmManHinhNhapDuLieu
         'btnReset
         '
         Me.btnReset.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnReset.Location = New System.Drawing.Point(487, 777)
+        Me.btnReset.Location = New System.Drawing.Point(348, 777)
         Me.btnReset.Name = "btnReset"
         Me.btnReset.Size = New System.Drawing.Size(127, 40)
         Me.btnReset.TabIndex = 6
@@ -397,7 +398,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 113.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 112.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 124.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 153.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 197.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.Label9, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Label10, 0, 2)
         Me.TableLayoutPanel1.Controls.Add(Me.Label11, 0, 3)
@@ -506,7 +507,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label9.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(21, 33)
+        Me.Label9.Location = New System.Drawing.Point(16, 33)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(16, 18)
         Me.Label9.TabIndex = 0
@@ -517,7 +518,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label10.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(21, 67)
+        Me.Label10.Location = New System.Drawing.Point(16, 67)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(16, 18)
         Me.Label10.TabIndex = 0
@@ -528,7 +529,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label11.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(21, 101)
+        Me.Label11.Location = New System.Drawing.Point(16, 101)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(16, 18)
         Me.Label11.TabIndex = 0
@@ -539,7 +540,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label12.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(21, 135)
+        Me.Label12.Location = New System.Drawing.Point(16, 135)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(16, 18)
         Me.Label12.TabIndex = 0
@@ -550,7 +551,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label13.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(21, 169)
+        Me.Label13.Location = New System.Drawing.Point(16, 169)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(16, 18)
         Me.Label13.TabIndex = 0
@@ -561,7 +562,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label14.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(21, 203)
+        Me.Label14.Location = New System.Drawing.Point(16, 203)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(16, 18)
         Me.Label14.TabIndex = 0
@@ -572,7 +573,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label15.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(21, 237)
+        Me.Label15.Location = New System.Drawing.Point(16, 237)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(16, 18)
         Me.Label15.TabIndex = 0
@@ -583,7 +584,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label16.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(21, 271)
+        Me.Label16.Location = New System.Drawing.Point(16, 271)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(16, 18)
         Me.Label16.TabIndex = 0
@@ -594,7 +595,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label8.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(21, 305)
+        Me.Label8.Location = New System.Drawing.Point(16, 305)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(16, 18)
         Me.Label8.TabIndex = 0
@@ -605,7 +606,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label17.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(17, 339)
+        Me.Label17.Location = New System.Drawing.Point(12, 339)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(24, 18)
         Me.Label17.TabIndex = 0
@@ -616,7 +617,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label18.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(17, 373)
+        Me.Label18.Location = New System.Drawing.Point(12, 373)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(24, 18)
         Me.Label18.TabIndex = 0
@@ -627,7 +628,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label19.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(17, 407)
+        Me.Label19.Location = New System.Drawing.Point(12, 407)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(24, 18)
         Me.Label19.TabIndex = 0
@@ -638,7 +639,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label20.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(17, 443)
+        Me.Label20.Location = New System.Drawing.Point(12, 443)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(24, 18)
         Me.Label20.TabIndex = 0
@@ -649,7 +650,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label21.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(113, 4)
+        Me.Label21.Location = New System.Drawing.Point(86, 4)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(68, 18)
         Me.Label21.TabIndex = 0
@@ -660,7 +661,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label22.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(255, 4)
+        Me.Label22.Location = New System.Drawing.Point(211, 4)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(83, 18)
         Me.Label22.TabIndex = 0
@@ -671,7 +672,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label23.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(385, 4)
+        Me.Label23.Location = New System.Drawing.Point(341, 4)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(53, 18)
         Me.Label23.TabIndex = 0
@@ -682,7 +683,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label24.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(499, 4)
+        Me.Label24.Location = New System.Drawing.Point(455, 4)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(68, 18)
         Me.Label24.TabIndex = 0
@@ -693,7 +694,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.Label25.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label25.AutoSize = True
         Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(656, 4)
+        Me.Label25.Location = New System.Drawing.Point(634, 4)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(38, 18)
         Me.Label25.TabIndex = 0
@@ -704,7 +705,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbn1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbn1.AutoSize = True
         Me.lbn1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbn1.Location = New System.Drawing.Point(147, 33)
+        Me.lbn1.Location = New System.Drawing.Point(120, 33)
         Me.lbn1.Name = "lbn1"
         Me.lbn1.Size = New System.Drawing.Size(0, 18)
         Me.lbn1.TabIndex = 0
@@ -714,7 +715,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbn2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbn2.AutoSize = True
         Me.lbn2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbn2.Location = New System.Drawing.Point(147, 67)
+        Me.lbn2.Location = New System.Drawing.Point(120, 67)
         Me.lbn2.Name = "lbn2"
         Me.lbn2.Size = New System.Drawing.Size(0, 18)
         Me.lbn2.TabIndex = 0
@@ -724,7 +725,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbn3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbn3.AutoSize = True
         Me.lbn3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbn3.Location = New System.Drawing.Point(147, 101)
+        Me.lbn3.Location = New System.Drawing.Point(120, 101)
         Me.lbn3.Name = "lbn3"
         Me.lbn3.Size = New System.Drawing.Size(0, 18)
         Me.lbn3.TabIndex = 0
@@ -734,7 +735,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbn4.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbn4.AutoSize = True
         Me.lbn4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbn4.Location = New System.Drawing.Point(147, 135)
+        Me.lbn4.Location = New System.Drawing.Point(120, 135)
         Me.lbn4.Name = "lbn4"
         Me.lbn4.Size = New System.Drawing.Size(0, 18)
         Me.lbn4.TabIndex = 0
@@ -744,7 +745,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbn5.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbn5.AutoSize = True
         Me.lbn5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbn5.Location = New System.Drawing.Point(147, 169)
+        Me.lbn5.Location = New System.Drawing.Point(120, 169)
         Me.lbn5.Name = "lbn5"
         Me.lbn5.Size = New System.Drawing.Size(0, 18)
         Me.lbn5.TabIndex = 0
@@ -754,7 +755,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbn6.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbn6.AutoSize = True
         Me.lbn6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbn6.Location = New System.Drawing.Point(147, 203)
+        Me.lbn6.Location = New System.Drawing.Point(120, 203)
         Me.lbn6.Name = "lbn6"
         Me.lbn6.Size = New System.Drawing.Size(0, 18)
         Me.lbn6.TabIndex = 0
@@ -764,7 +765,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbn7.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbn7.AutoSize = True
         Me.lbn7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbn7.Location = New System.Drawing.Point(147, 237)
+        Me.lbn7.Location = New System.Drawing.Point(120, 237)
         Me.lbn7.Name = "lbn7"
         Me.lbn7.Size = New System.Drawing.Size(0, 18)
         Me.lbn7.TabIndex = 0
@@ -774,7 +775,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbn8.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbn8.AutoSize = True
         Me.lbn8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbn8.Location = New System.Drawing.Point(147, 271)
+        Me.lbn8.Location = New System.Drawing.Point(120, 271)
         Me.lbn8.Name = "lbn8"
         Me.lbn8.Size = New System.Drawing.Size(0, 18)
         Me.lbn8.TabIndex = 0
@@ -784,7 +785,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbn9.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbn9.AutoSize = True
         Me.lbn9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbn9.Location = New System.Drawing.Point(147, 305)
+        Me.lbn9.Location = New System.Drawing.Point(120, 305)
         Me.lbn9.Name = "lbn9"
         Me.lbn9.Size = New System.Drawing.Size(0, 18)
         Me.lbn9.TabIndex = 0
@@ -794,7 +795,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbn10.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbn10.AutoSize = True
         Me.lbn10.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbn10.Location = New System.Drawing.Point(147, 339)
+        Me.lbn10.Location = New System.Drawing.Point(120, 339)
         Me.lbn10.Name = "lbn10"
         Me.lbn10.Size = New System.Drawing.Size(0, 18)
         Me.lbn10.TabIndex = 0
@@ -804,7 +805,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbn11.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbn11.AutoSize = True
         Me.lbn11.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbn11.Location = New System.Drawing.Point(147, 373)
+        Me.lbn11.Location = New System.Drawing.Point(120, 373)
         Me.lbn11.Name = "lbn11"
         Me.lbn11.Size = New System.Drawing.Size(0, 18)
         Me.lbn11.TabIndex = 0
@@ -814,7 +815,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbn12.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbn12.AutoSize = True
         Me.lbn12.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbn12.Location = New System.Drawing.Point(147, 407)
+        Me.lbn12.Location = New System.Drawing.Point(120, 407)
         Me.lbn12.Name = "lbn12"
         Me.lbn12.Size = New System.Drawing.Size(0, 18)
         Me.lbn12.TabIndex = 0
@@ -824,7 +825,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbn13.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbn13.AutoSize = True
         Me.lbn13.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbn13.Location = New System.Drawing.Point(147, 443)
+        Me.lbn13.Location = New System.Drawing.Point(120, 443)
         Me.lbn13.Name = "lbn13"
         Me.lbn13.Size = New System.Drawing.Size(0, 18)
         Me.lbn13.TabIndex = 0
@@ -834,7 +835,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungSai1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungSai1.AutoSize = True
         Me.lbnDungSai1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungSai1.Location = New System.Drawing.Point(296, 33)
+        Me.lbnDungSai1.Location = New System.Drawing.Point(252, 33)
         Me.lbnDungSai1.Name = "lbnDungSai1"
         Me.lbnDungSai1.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungSai1.TabIndex = 0
@@ -844,7 +845,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungSai2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungSai2.AutoSize = True
         Me.lbnDungSai2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungSai2.Location = New System.Drawing.Point(296, 67)
+        Me.lbnDungSai2.Location = New System.Drawing.Point(252, 67)
         Me.lbnDungSai2.Name = "lbnDungSai2"
         Me.lbnDungSai2.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungSai2.TabIndex = 0
@@ -854,7 +855,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungSai3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungSai3.AutoSize = True
         Me.lbnDungSai3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungSai3.Location = New System.Drawing.Point(296, 101)
+        Me.lbnDungSai3.Location = New System.Drawing.Point(252, 101)
         Me.lbnDungSai3.Name = "lbnDungSai3"
         Me.lbnDungSai3.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungSai3.TabIndex = 0
@@ -864,7 +865,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungSai4.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungSai4.AutoSize = True
         Me.lbnDungSai4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungSai4.Location = New System.Drawing.Point(296, 135)
+        Me.lbnDungSai4.Location = New System.Drawing.Point(252, 135)
         Me.lbnDungSai4.Name = "lbnDungSai4"
         Me.lbnDungSai4.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungSai4.TabIndex = 0
@@ -874,7 +875,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungSai5.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungSai5.AutoSize = True
         Me.lbnDungSai5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungSai5.Location = New System.Drawing.Point(296, 169)
+        Me.lbnDungSai5.Location = New System.Drawing.Point(252, 169)
         Me.lbnDungSai5.Name = "lbnDungSai5"
         Me.lbnDungSai5.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungSai5.TabIndex = 0
@@ -884,7 +885,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungSai6.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungSai6.AutoSize = True
         Me.lbnDungSai6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungSai6.Location = New System.Drawing.Point(296, 203)
+        Me.lbnDungSai6.Location = New System.Drawing.Point(252, 203)
         Me.lbnDungSai6.Name = "lbnDungSai6"
         Me.lbnDungSai6.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungSai6.TabIndex = 0
@@ -894,7 +895,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungSai7.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungSai7.AutoSize = True
         Me.lbnDungSai7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungSai7.Location = New System.Drawing.Point(296, 237)
+        Me.lbnDungSai7.Location = New System.Drawing.Point(252, 237)
         Me.lbnDungSai7.Name = "lbnDungSai7"
         Me.lbnDungSai7.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungSai7.TabIndex = 0
@@ -904,7 +905,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungSai8.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungSai8.AutoSize = True
         Me.lbnDungSai8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungSai8.Location = New System.Drawing.Point(296, 271)
+        Me.lbnDungSai8.Location = New System.Drawing.Point(252, 271)
         Me.lbnDungSai8.Name = "lbnDungSai8"
         Me.lbnDungSai8.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungSai8.TabIndex = 0
@@ -914,7 +915,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungSai9.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungSai9.AutoSize = True
         Me.lbnDungSai9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungSai9.Location = New System.Drawing.Point(296, 305)
+        Me.lbnDungSai9.Location = New System.Drawing.Point(252, 305)
         Me.lbnDungSai9.Name = "lbnDungSai9"
         Me.lbnDungSai9.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungSai9.TabIndex = 0
@@ -924,7 +925,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungSai10.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungSai10.AutoSize = True
         Me.lbnDungSai10.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungSai10.Location = New System.Drawing.Point(296, 339)
+        Me.lbnDungSai10.Location = New System.Drawing.Point(252, 339)
         Me.lbnDungSai10.Name = "lbnDungSai10"
         Me.lbnDungSai10.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungSai10.TabIndex = 0
@@ -934,7 +935,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungSai11.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungSai11.AutoSize = True
         Me.lbnDungSai11.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungSai11.Location = New System.Drawing.Point(296, 373)
+        Me.lbnDungSai11.Location = New System.Drawing.Point(252, 373)
         Me.lbnDungSai11.Name = "lbnDungSai11"
         Me.lbnDungSai11.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungSai11.TabIndex = 0
@@ -944,7 +945,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungSai12.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungSai12.AutoSize = True
         Me.lbnDungSai12.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungSai12.Location = New System.Drawing.Point(296, 407)
+        Me.lbnDungSai12.Location = New System.Drawing.Point(252, 407)
         Me.lbnDungSai12.Name = "lbnDungSai12"
         Me.lbnDungSai12.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungSai12.TabIndex = 0
@@ -954,7 +955,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungSai13.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungSai13.AutoSize = True
         Me.lbnDungSai13.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungSai13.Location = New System.Drawing.Point(296, 443)
+        Me.lbnDungSai13.Location = New System.Drawing.Point(252, 443)
         Me.lbnDungSai13.Name = "lbnDungSai13"
         Me.lbnDungSai13.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungSai13.TabIndex = 0
@@ -964,7 +965,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungCu1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungCu1.AutoSize = True
         Me.lbnDungCu1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungCu1.Location = New System.Drawing.Point(533, 33)
+        Me.lbnDungCu1.Location = New System.Drawing.Point(489, 33)
         Me.lbnDungCu1.Name = "lbnDungCu1"
         Me.lbnDungCu1.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungCu1.TabIndex = 0
@@ -974,7 +975,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungCu2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungCu2.AutoSize = True
         Me.lbnDungCu2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungCu2.Location = New System.Drawing.Point(533, 67)
+        Me.lbnDungCu2.Location = New System.Drawing.Point(489, 67)
         Me.lbnDungCu2.Name = "lbnDungCu2"
         Me.lbnDungCu2.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungCu2.TabIndex = 0
@@ -984,7 +985,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungCu3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungCu3.AutoSize = True
         Me.lbnDungCu3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungCu3.Location = New System.Drawing.Point(533, 101)
+        Me.lbnDungCu3.Location = New System.Drawing.Point(489, 101)
         Me.lbnDungCu3.Name = "lbnDungCu3"
         Me.lbnDungCu3.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungCu3.TabIndex = 0
@@ -994,7 +995,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungCu4.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungCu4.AutoSize = True
         Me.lbnDungCu4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungCu4.Location = New System.Drawing.Point(533, 135)
+        Me.lbnDungCu4.Location = New System.Drawing.Point(489, 135)
         Me.lbnDungCu4.Name = "lbnDungCu4"
         Me.lbnDungCu4.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungCu4.TabIndex = 0
@@ -1004,7 +1005,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungCu5.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungCu5.AutoSize = True
         Me.lbnDungCu5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungCu5.Location = New System.Drawing.Point(533, 169)
+        Me.lbnDungCu5.Location = New System.Drawing.Point(489, 169)
         Me.lbnDungCu5.Name = "lbnDungCu5"
         Me.lbnDungCu5.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungCu5.TabIndex = 0
@@ -1014,7 +1015,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungCu6.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungCu6.AutoSize = True
         Me.lbnDungCu6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungCu6.Location = New System.Drawing.Point(533, 203)
+        Me.lbnDungCu6.Location = New System.Drawing.Point(489, 203)
         Me.lbnDungCu6.Name = "lbnDungCu6"
         Me.lbnDungCu6.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungCu6.TabIndex = 0
@@ -1024,7 +1025,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungCu7.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungCu7.AutoSize = True
         Me.lbnDungCu7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungCu7.Location = New System.Drawing.Point(533, 237)
+        Me.lbnDungCu7.Location = New System.Drawing.Point(489, 237)
         Me.lbnDungCu7.Name = "lbnDungCu7"
         Me.lbnDungCu7.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungCu7.TabIndex = 0
@@ -1034,7 +1035,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungCu8.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungCu8.AutoSize = True
         Me.lbnDungCu8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungCu8.Location = New System.Drawing.Point(533, 271)
+        Me.lbnDungCu8.Location = New System.Drawing.Point(489, 271)
         Me.lbnDungCu8.Name = "lbnDungCu8"
         Me.lbnDungCu8.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungCu8.TabIndex = 0
@@ -1044,7 +1045,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungCu9.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungCu9.AutoSize = True
         Me.lbnDungCu9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungCu9.Location = New System.Drawing.Point(533, 305)
+        Me.lbnDungCu9.Location = New System.Drawing.Point(489, 305)
         Me.lbnDungCu9.Name = "lbnDungCu9"
         Me.lbnDungCu9.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungCu9.TabIndex = 0
@@ -1054,7 +1055,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungCu10.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungCu10.AutoSize = True
         Me.lbnDungCu10.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungCu10.Location = New System.Drawing.Point(533, 339)
+        Me.lbnDungCu10.Location = New System.Drawing.Point(489, 339)
         Me.lbnDungCu10.Name = "lbnDungCu10"
         Me.lbnDungCu10.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungCu10.TabIndex = 0
@@ -1064,7 +1065,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungCu11.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungCu11.AutoSize = True
         Me.lbnDungCu11.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungCu11.Location = New System.Drawing.Point(533, 373)
+        Me.lbnDungCu11.Location = New System.Drawing.Point(489, 373)
         Me.lbnDungCu11.Name = "lbnDungCu11"
         Me.lbnDungCu11.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungCu11.TabIndex = 0
@@ -1074,7 +1075,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungCu12.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungCu12.AutoSize = True
         Me.lbnDungCu12.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungCu12.Location = New System.Drawing.Point(533, 407)
+        Me.lbnDungCu12.Location = New System.Drawing.Point(489, 407)
         Me.lbnDungCu12.Name = "lbnDungCu12"
         Me.lbnDungCu12.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungCu12.TabIndex = 0
@@ -1084,7 +1085,7 @@ Partial Class FrmManHinhNhapDuLieu
         Me.lbnDungCu13.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbnDungCu13.AutoSize = True
         Me.lbnDungCu13.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnDungCu13.Location = New System.Drawing.Point(533, 443)
+        Me.lbnDungCu13.Location = New System.Drawing.Point(489, 443)
         Me.lbnDungCu13.Name = "lbnDungCu13"
         Me.lbnDungCu13.Size = New System.Drawing.Size(0, 18)
         Me.lbnDungCu13.TabIndex = 0
@@ -1095,7 +1096,7 @@ Partial Class FrmManHinhNhapDuLieu
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtKichThuoc1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtKichThuoc1.Location = New System.Drawing.Point(359, 30)
+        Me.txtKichThuoc1.Location = New System.Drawing.Point(315, 30)
         Me.txtKichThuoc1.Name = "txtKichThuoc1"
         Me.txtKichThuoc1.Size = New System.Drawing.Size(106, 24)
         Me.txtKichThuoc1.TabIndex = 1
@@ -1106,7 +1107,7 @@ Partial Class FrmManHinhNhapDuLieu
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtKichThuoc2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtKichThuoc2.Location = New System.Drawing.Point(359, 64)
+        Me.txtKichThuoc2.Location = New System.Drawing.Point(315, 64)
         Me.txtKichThuoc2.Name = "txtKichThuoc2"
         Me.txtKichThuoc2.Size = New System.Drawing.Size(106, 24)
         Me.txtKichThuoc2.TabIndex = 1
@@ -1117,7 +1118,7 @@ Partial Class FrmManHinhNhapDuLieu
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtKichThuoc3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtKichThuoc3.Location = New System.Drawing.Point(359, 98)
+        Me.txtKichThuoc3.Location = New System.Drawing.Point(315, 98)
         Me.txtKichThuoc3.Name = "txtKichThuoc3"
         Me.txtKichThuoc3.Size = New System.Drawing.Size(106, 24)
         Me.txtKichThuoc3.TabIndex = 1
@@ -1128,7 +1129,7 @@ Partial Class FrmManHinhNhapDuLieu
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtKichThuoc4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtKichThuoc4.Location = New System.Drawing.Point(359, 132)
+        Me.txtKichThuoc4.Location = New System.Drawing.Point(315, 132)
         Me.txtKichThuoc4.Name = "txtKichThuoc4"
         Me.txtKichThuoc4.Size = New System.Drawing.Size(106, 24)
         Me.txtKichThuoc4.TabIndex = 1
@@ -1139,7 +1140,7 @@ Partial Class FrmManHinhNhapDuLieu
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtKichThuoc5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtKichThuoc5.Location = New System.Drawing.Point(359, 166)
+        Me.txtKichThuoc5.Location = New System.Drawing.Point(315, 166)
         Me.txtKichThuoc5.Name = "txtKichThuoc5"
         Me.txtKichThuoc5.Size = New System.Drawing.Size(106, 24)
         Me.txtKichThuoc5.TabIndex = 1
@@ -1150,7 +1151,7 @@ Partial Class FrmManHinhNhapDuLieu
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtKichThuoc6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtKichThuoc6.Location = New System.Drawing.Point(359, 200)
+        Me.txtKichThuoc6.Location = New System.Drawing.Point(315, 200)
         Me.txtKichThuoc6.Name = "txtKichThuoc6"
         Me.txtKichThuoc6.Size = New System.Drawing.Size(106, 24)
         Me.txtKichThuoc6.TabIndex = 1
@@ -1161,7 +1162,7 @@ Partial Class FrmManHinhNhapDuLieu
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtKichThuoc7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtKichThuoc7.Location = New System.Drawing.Point(359, 234)
+        Me.txtKichThuoc7.Location = New System.Drawing.Point(315, 234)
         Me.txtKichThuoc7.Name = "txtKichThuoc7"
         Me.txtKichThuoc7.Size = New System.Drawing.Size(106, 24)
         Me.txtKichThuoc7.TabIndex = 1
@@ -1172,7 +1173,7 @@ Partial Class FrmManHinhNhapDuLieu
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtKichThuoc8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtKichThuoc8.Location = New System.Drawing.Point(359, 268)
+        Me.txtKichThuoc8.Location = New System.Drawing.Point(315, 268)
         Me.txtKichThuoc8.Name = "txtKichThuoc8"
         Me.txtKichThuoc8.Size = New System.Drawing.Size(106, 24)
         Me.txtKichThuoc8.TabIndex = 1
@@ -1183,7 +1184,7 @@ Partial Class FrmManHinhNhapDuLieu
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtKichThuoc9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtKichThuoc9.Location = New System.Drawing.Point(359, 302)
+        Me.txtKichThuoc9.Location = New System.Drawing.Point(315, 302)
         Me.txtKichThuoc9.Name = "txtKichThuoc9"
         Me.txtKichThuoc9.Size = New System.Drawing.Size(106, 24)
         Me.txtKichThuoc9.TabIndex = 1
@@ -1194,7 +1195,7 @@ Partial Class FrmManHinhNhapDuLieu
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtKichThuoc10.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtKichThuoc10.Location = New System.Drawing.Point(359, 336)
+        Me.txtKichThuoc10.Location = New System.Drawing.Point(315, 336)
         Me.txtKichThuoc10.Name = "txtKichThuoc10"
         Me.txtKichThuoc10.Size = New System.Drawing.Size(106, 24)
         Me.txtKichThuoc10.TabIndex = 1
@@ -1205,7 +1206,7 @@ Partial Class FrmManHinhNhapDuLieu
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtKichThuoc11.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtKichThuoc11.Location = New System.Drawing.Point(359, 370)
+        Me.txtKichThuoc11.Location = New System.Drawing.Point(315, 370)
         Me.txtKichThuoc11.Name = "txtKichThuoc11"
         Me.txtKichThuoc11.Size = New System.Drawing.Size(106, 24)
         Me.txtKichThuoc11.TabIndex = 1
@@ -1216,7 +1217,7 @@ Partial Class FrmManHinhNhapDuLieu
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtKichThuoc12.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtKichThuoc12.Location = New System.Drawing.Point(359, 404)
+        Me.txtKichThuoc12.Location = New System.Drawing.Point(315, 404)
         Me.txtKichThuoc12.Name = "txtKichThuoc12"
         Me.txtKichThuoc12.Size = New System.Drawing.Size(106, 24)
         Me.txtKichThuoc12.TabIndex = 1
@@ -1227,7 +1228,7 @@ Partial Class FrmManHinhNhapDuLieu
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtKichThuoc13.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtKichThuoc13.Location = New System.Drawing.Point(359, 438)
+        Me.txtKichThuoc13.Location = New System.Drawing.Point(315, 438)
         Me.txtKichThuoc13.Name = "txtKichThuoc13"
         Me.txtKichThuoc13.Size = New System.Drawing.Size(106, 24)
         Me.txtKichThuoc13.TabIndex = 1
@@ -1236,8 +1237,7 @@ Partial Class FrmManHinhNhapDuLieu
         '
         Me.CheckBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Enabled = False
-        Me.CheckBox1.Location = New System.Drawing.Point(667, 30)
+        Me.CheckBox1.Location = New System.Drawing.Point(645, 30)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(15, 25)
         Me.CheckBox1.TabIndex = 2
@@ -1248,8 +1248,7 @@ Partial Class FrmManHinhNhapDuLieu
         '
         Me.CheckBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Enabled = False
-        Me.CheckBox2.Location = New System.Drawing.Point(667, 64)
+        Me.CheckBox2.Location = New System.Drawing.Point(645, 64)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(15, 25)
         Me.CheckBox2.TabIndex = 2
@@ -1260,8 +1259,7 @@ Partial Class FrmManHinhNhapDuLieu
         '
         Me.CheckBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Enabled = False
-        Me.CheckBox3.Location = New System.Drawing.Point(667, 98)
+        Me.CheckBox3.Location = New System.Drawing.Point(645, 98)
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(15, 25)
         Me.CheckBox3.TabIndex = 2
@@ -1272,8 +1270,7 @@ Partial Class FrmManHinhNhapDuLieu
         '
         Me.CheckBox4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Enabled = False
-        Me.CheckBox4.Location = New System.Drawing.Point(667, 132)
+        Me.CheckBox4.Location = New System.Drawing.Point(645, 132)
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(15, 25)
         Me.CheckBox4.TabIndex = 2
@@ -1284,8 +1281,7 @@ Partial Class FrmManHinhNhapDuLieu
         '
         Me.CheckBox5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Enabled = False
-        Me.CheckBox5.Location = New System.Drawing.Point(667, 166)
+        Me.CheckBox5.Location = New System.Drawing.Point(645, 166)
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(15, 25)
         Me.CheckBox5.TabIndex = 2
@@ -1296,8 +1292,7 @@ Partial Class FrmManHinhNhapDuLieu
         '
         Me.CheckBox6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Enabled = False
-        Me.CheckBox6.Location = New System.Drawing.Point(667, 200)
+        Me.CheckBox6.Location = New System.Drawing.Point(645, 200)
         Me.CheckBox6.Name = "CheckBox6"
         Me.CheckBox6.Size = New System.Drawing.Size(15, 25)
         Me.CheckBox6.TabIndex = 2
@@ -1308,8 +1303,7 @@ Partial Class FrmManHinhNhapDuLieu
         '
         Me.CheckBox7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.Enabled = False
-        Me.CheckBox7.Location = New System.Drawing.Point(667, 234)
+        Me.CheckBox7.Location = New System.Drawing.Point(645, 234)
         Me.CheckBox7.Name = "CheckBox7"
         Me.CheckBox7.Size = New System.Drawing.Size(15, 25)
         Me.CheckBox7.TabIndex = 2
@@ -1320,8 +1314,7 @@ Partial Class FrmManHinhNhapDuLieu
         '
         Me.CheckBox8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CheckBox8.AutoSize = True
-        Me.CheckBox8.Enabled = False
-        Me.CheckBox8.Location = New System.Drawing.Point(667, 268)
+        Me.CheckBox8.Location = New System.Drawing.Point(645, 268)
         Me.CheckBox8.Name = "CheckBox8"
         Me.CheckBox8.Size = New System.Drawing.Size(15, 25)
         Me.CheckBox8.TabIndex = 2
@@ -1332,8 +1325,7 @@ Partial Class FrmManHinhNhapDuLieu
         '
         Me.CheckBox9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CheckBox9.AutoSize = True
-        Me.CheckBox9.Enabled = False
-        Me.CheckBox9.Location = New System.Drawing.Point(667, 302)
+        Me.CheckBox9.Location = New System.Drawing.Point(645, 302)
         Me.CheckBox9.Name = "CheckBox9"
         Me.CheckBox9.Size = New System.Drawing.Size(15, 25)
         Me.CheckBox9.TabIndex = 2
@@ -1344,8 +1336,7 @@ Partial Class FrmManHinhNhapDuLieu
         '
         Me.CheckBox10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CheckBox10.AutoSize = True
-        Me.CheckBox10.Enabled = False
-        Me.CheckBox10.Location = New System.Drawing.Point(667, 336)
+        Me.CheckBox10.Location = New System.Drawing.Point(645, 336)
         Me.CheckBox10.Name = "CheckBox10"
         Me.CheckBox10.Size = New System.Drawing.Size(15, 25)
         Me.CheckBox10.TabIndex = 2
@@ -1356,8 +1347,7 @@ Partial Class FrmManHinhNhapDuLieu
         '
         Me.CheckBox11.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CheckBox11.AutoSize = True
-        Me.CheckBox11.Enabled = False
-        Me.CheckBox11.Location = New System.Drawing.Point(667, 370)
+        Me.CheckBox11.Location = New System.Drawing.Point(645, 370)
         Me.CheckBox11.Name = "CheckBox11"
         Me.CheckBox11.Size = New System.Drawing.Size(15, 25)
         Me.CheckBox11.TabIndex = 2
@@ -1368,8 +1358,7 @@ Partial Class FrmManHinhNhapDuLieu
         '
         Me.CheckBox12.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CheckBox12.AutoSize = True
-        Me.CheckBox12.Enabled = False
-        Me.CheckBox12.Location = New System.Drawing.Point(667, 404)
+        Me.CheckBox12.Location = New System.Drawing.Point(645, 404)
         Me.CheckBox12.Name = "CheckBox12"
         Me.CheckBox12.Size = New System.Drawing.Size(15, 25)
         Me.CheckBox12.TabIndex = 2
@@ -1380,8 +1369,7 @@ Partial Class FrmManHinhNhapDuLieu
         '
         Me.CheckBox13.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CheckBox13.AutoSize = True
-        Me.CheckBox13.Enabled = False
-        Me.CheckBox13.Location = New System.Drawing.Point(667, 438)
+        Me.CheckBox13.Location = New System.Drawing.Point(645, 438)
         Me.CheckBox13.Name = "CheckBox13"
         Me.CheckBox13.Size = New System.Drawing.Size(15, 28)
         Me.CheckBox13.TabIndex = 2
@@ -1398,11 +1386,22 @@ Partial Class FrmManHinhNhapDuLieu
         Me.PictureBox6.TabIndex = 4
         Me.PictureBox6.TabStop = False
         '
+        'btnInKetQua
+        '
+        Me.btnInKetQua.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnInKetQua.Location = New System.Drawing.Point(492, 777)
+        Me.btnInKetQua.Name = "btnInKetQua"
+        Me.btnInKetQua.Size = New System.Drawing.Size(127, 40)
+        Me.btnInKetQua.TabIndex = 12
+        Me.btnInKetQua.Text = "印刷"
+        Me.btnInKetQua.UseVisualStyleBackColor = True
+        '
         'FrmManHinhNhapDuLieu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1588, 821)
+        Me.Controls.Add(Me.btnInKetQua)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.btnThoat)
         Me.Controls.Add(Me.btnReset)
@@ -1545,4 +1544,5 @@ Partial Class FrmManHinhNhapDuLieu
     Friend WithEvents CheckBox11 As CheckBox
     Friend WithEvents CheckBox12 As CheckBox
     Friend WithEvents CheckBox13 As CheckBox
+    Friend WithEvents btnInKetQua As Button
 End Class

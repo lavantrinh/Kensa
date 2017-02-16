@@ -6,6 +6,7 @@ Public Class FrmManHinhNhapDuLieu
         Process.Start("C:\Users\Mr La\Dropbox\ホシザキ電機図面管理\カメラアップロード (Old)\" & DuLieuSanPham.<information>.<picture>.<pic1>.Value & "")
     End Sub
 
+
     Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
         txtKichThuoc1.Text = ""
         txtKichThuoc2.Text = ""
@@ -96,16 +97,16 @@ Public Class FrmManHinhNhapDuLieu
 
 
         Dim writer As New XmlTextWriter(DuongDanFolder.<setup>.<SaveFolder>.Value & "\" & txtOrder.Text & "_" & txtTenBanVe.Text & "_" & Mid(txtThoiHan.Text, 1, 2) & "_" & Mid(txtThoiHan.Text, 4, 2) & "_" & Mid(txtThoiHan.Text, 7, 4) & ".xml", System.Text.Encoding.UTF8)
-            writer.WriteStartDocument(True)
-            writer.Formatting = Formatting.Indented
-            writer.Indentation = 2
-            writer.WriteStartElement("Information")
-            Dim staff As String
-            staff = FrmNhapMaVach.TextBox1.Text
-            createNode(Date.Today, staff, txtOrder.Text, txtTenBanVe.Text, txtTenSanPham.Text, txtSoLuong.Text, txtThoiHan.Text, txtKichThuoc1.Text, txtKichThuoc2.Text, txtKichThuoc3.Text, txtKichThuoc4.Text, txtKichThuoc5.Text, txtKichThuoc6.Text, txtKichThuoc7.Text, txtKichThuoc8.Text, txtKichThuoc9.Text, txtKichThuoc10.Text, txtKichThuoc11.Text, txtKichThuoc12.Text, txtKichThuoc13.Text, writer)
-            writer.WriteEndElement()
-            writer.WriteEndDocument()
-            writer.Close()
+        writer.WriteStartDocument(True)
+        writer.Formatting = Formatting.Indented
+        writer.Indentation = 2
+        writer.WriteStartElement("Information")
+        Dim staff As String
+        staff = FrmNhapMaVach.TextBox1.Text
+        createNode(Date.Today, staff, txtOrder.Text, txtTenBanVe.Text, txtTenSanPham.Text, txtSoLuong.Text, txtThoiHan.Text, txtKichThuoc1.Text, txtKichThuoc2.Text, txtKichThuoc3.Text, txtKichThuoc4.Text, txtKichThuoc5.Text, txtKichThuoc6.Text, txtKichThuoc7.Text, txtKichThuoc8.Text, txtKichThuoc9.Text, txtKichThuoc10.Text, txtKichThuoc11.Text, txtKichThuoc12.Text, txtKichThuoc13.Text, writer)
+        writer.WriteEndElement()
+        writer.WriteEndDocument()
+        writer.Close()
 
 
 
@@ -606,5 +607,17 @@ Public Class FrmManHinhNhapDuLieu
     Private Sub CheckBox13_Click(sender As Object, e As EventArgs) Handles CheckBox13.Click
         CheckBox13.Text = "OK"
         CheckBox13.BackColor = Color.Green
+    End Sub
+
+    Private Sub btnInKetQua_Click(sender As Object, e As EventArgs) Handles btnInKetQua.Click
+        FrmLoadData.MdiParent = FrmManHinhChinh
+        FrmLoadData.Show()
+        FrmLoadData.Activate()
+
+
+    End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        
     End Sub
 End Class

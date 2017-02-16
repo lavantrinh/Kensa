@@ -18,3 +18,47 @@ C:\Users\VanTrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen I
 C:\Users\VanTrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\obj\Debug\Souen Inspection.vbproj.ResolveComReference.cache
 C:\Users\VanTrinh\documents\visual studio 2015\Projects\Souen Inspection\Souen Inspection\obj\Debug\Souen_Inspection.Form1.resources
 C:\Users\VanTrinh\Documents\Visual Studio 2015\Projects\Souen Inspection\Souen Inspection\obj\Debug\Souen_Inspection.FrmSetup.resources
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\Souen Inspection.exe.config
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Souen Inspection.vbproj.ResolveComReference.cache
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Souen Inspection.exe
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Souen Inspection.xml
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Souen Inspection.pdb
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\Souen Inspection.exe
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\Souen Inspection.pdb
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\Souen Inspection.xml
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Souen Inspection.vbprojResolveAssemblyReference.cache
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Souen_Inspection.Form1.resources
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Souen_Inspection.FrmManHinhChinh.resources
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Souen_Inspection.FrmManHinhNhapDuLieu.resources
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Souen_Inspection.FrmNhapMaVach.resources
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Souen_Inspection.FrmSetup.resources
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Souen_Inspection.Resources.resources
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Souen Inspection.vbproj.GenerateResource.Cache
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Souen_Inspection.ThemDuLieuBanVe.resources
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Souen_Inspection.FrmLoadData.resources
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\FlashControlV71.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\bin\Debug\stdole.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Interop.CrystalPrintControlLib.dll
+C:\Users\Mr La\Videos\Kensa App\Kensa\Souen Inspection\obj\Debug\Interop.CrystalReportViewerExportLib.dll

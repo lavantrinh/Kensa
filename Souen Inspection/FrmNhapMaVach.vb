@@ -1,13 +1,16 @@
 ﻿Imports System.Configuration
 Imports System.Data.SqlClient
 Imports System.Xml
+
 Public Class FrmNhapMaVach
+
     Private connection As New SqlConnection("Data Source=WILL-SV;Initial Catalog=Cabledb;Integrated Security=True")
     Private MaVach As String
     Private DuongDanBanVe As String
     Private DuongDanAnhSanPham As String
     Private DuongDanSave As String
     Private xml_doc As Object
+    Private FolderDuLieuSanPham As String
 
     Private Function getDataTable(sqlQuery As String) As DataTable
         Dim dTable As New DataTable
@@ -52,15 +55,20 @@ Public Class FrmNhapMaVach
         FrmManHinhNhapDuLieu.txtTenSanPham.Text = table1.Rows(0).Item("製品名").ToString
         FrmManHinhNhapDuLieu.txtSoLuong.Text = table1.Rows(0).Item("手配数量").ToString
         FrmManHinhNhapDuLieu.txtThoiHan.Text = table1.Rows(0).Item("社内納期").ToString
+        Dim Setup = XDocument.Load(My.Application.Info.DirectoryPath & "\setup.xml")
 
-        Dim DuLieuSanPham = XDocument.Load("C:\Users\Mr La\Videos\111002-01.xml")
+
+        FolderDuLieuSanPham = Setup.<setup>.<ResourceFolder>.Value
+
+        Dim DuLieuSanPham = XDocument.Load(FolderDuLieuSanPham & "\" & table1.Rows(0).Item("製品番号").ToString & ".xml")
+
         '" & table1.Rows(0).Item("製品番号").ToString&".xml"
-        FrmManHinhNhapDuLieu.AxAcroPDF1.src = "C:\Users\Mr La\Music\" & DuLieuSanPham.<information>.<drawing_name>.Value & ""
-        FrmManHinhNhapDuLieu.PictureBox1.ImageLocation = "C:\Users\Mr La\Dropbox\ホシザキ電機図面管理\カメラアップロード (Old)\" & DuLieuSanPham.<information>.<picture>.<pic1>.Value & ""
-        FrmManHinhNhapDuLieu.PictureBox2.ImageLocation = "C:\Users\Mr La\Dropbox\ホシザキ電機図面管理\カメラアップロード (Old)\" & DuLieuSanPham.<information>.<picture>.<pic2>.Value & ""
-        FrmManHinhNhapDuLieu.PictureBox3.ImageLocation = "C:\Users\Mr La\Dropbox\ホシザキ電機図面管理\カメラアップロード (Old)\" & DuLieuSanPham.<information>.<picture>.<pic3>.Value & ""
-        FrmManHinhNhapDuLieu.PictureBox4.ImageLocation = "C:\Users\Mr La\Dropbox\ホシザキ電機図面管理\カメラアップロード (Old)\" & DuLieuSanPham.<information>.<picture>.<pic4>.Value & ""
-        FrmManHinhNhapDuLieu.PictureBox5.ImageLocation = "C:\Users\Mr La\Dropbox\ホシザキ電機図面管理\カメラアップロード (Old)\" & DuLieuSanPham.<information>.<picture>.<pic5>.Value & ""
+        FrmManHinhNhapDuLieu.AxAcroPDF1.src = DuLieuSanPham.<information>.<DrawingName>.Value
+        FrmManHinhNhapDuLieu.PictureBox1.ImageLocation = DuLieuSanPham.<information>.<picture>.<pic1>.Value
+        FrmManHinhNhapDuLieu.PictureBox2.ImageLocation = DuLieuSanPham.<information>.<picture>.<pic2>.Value
+        FrmManHinhNhapDuLieu.PictureBox3.ImageLocation = DuLieuSanPham.<information>.<picture>.<pic3>.Value
+        FrmManHinhNhapDuLieu.PictureBox4.ImageLocation = DuLieuSanPham.<information>.<picture>.<pic4>.Value
+        FrmManHinhNhapDuLieu.PictureBox5.ImageLocation = DuLieuSanPham.<information>.<picture>.<pic5>.Value
 
         'Do ghi chu vao form
         FrmManHinhNhapDuLieu.txtGhiChu.Text = DuLieuSanPham.<information>.<note>.Value
@@ -112,10 +120,10 @@ Public Class FrmNhapMaVach
         'FrmManHinhNhapDuLieu.DataGridView2.DataSource = table2
     End Sub
     Private Function IsEmty() As Boolean
-            Return String.IsNullOrEmpty(Me.txtNhapMaVach.Text)
-        End Function
+        Return String.IsNullOrEmpty(Me.txtNhapMaVach.Text)
+    End Function
 
-        Private Sub txtNhapMaVach_TextChanged(sender As Object, e As EventArgs) Handles txtNhapMaVach.TextChanged
+    Private Sub txtNhapMaVach_TextChanged(sender As Object, e As EventArgs) Handles txtNhapMaVach.TextChanged
         MaVach = Mid(txtNhapMaVach.Text, 2, 6)
 
 
@@ -125,6 +133,7 @@ Public Class FrmNhapMaVach
                 FilterData(MaVach)
                 If IsNumeric(FrmManHinhNhapDuLieu.lbn1.Text) = False Then
                     FrmManHinhNhapDuLieu.txtKichThuoc1.Enabled = False
+
                 End If
                 If IsNumeric(FrmManHinhNhapDuLieu.lbn2.Text) = False Then
                     FrmManHinhNhapDuLieu.txtKichThuoc2.Enabled = False
@@ -134,6 +143,9 @@ Public Class FrmNhapMaVach
                 End If
                 If IsNumeric(FrmManHinhNhapDuLieu.lbn4.Text) = False Then
                     FrmManHinhNhapDuLieu.txtKichThuoc4.Enabled = False
+
+                Else
+                    FrmManHinhNhapDuLieu.CheckBox4.Enabled = False
                 End If
                 If IsNumeric(FrmManHinhNhapDuLieu.lbn5.Text) = False Then
                     FrmManHinhNhapDuLieu.txtKichThuoc5.Enabled = False
@@ -149,6 +161,7 @@ Public Class FrmNhapMaVach
                 End If
                 If IsNumeric(FrmManHinhNhapDuLieu.lbn9.Text) = False Then
                     FrmManHinhNhapDuLieu.txtKichThuoc9.Enabled = False
+
                 End If
                 If IsNumeric(FrmManHinhNhapDuLieu.lbn10.Text) = False Then
                     FrmManHinhNhapDuLieu.txtKichThuoc10.Enabled = False
@@ -162,6 +175,45 @@ Public Class FrmNhapMaVach
                 If IsNumeric(FrmManHinhNhapDuLieu.lbn13.Text) = False Then
                     FrmManHinhNhapDuLieu.txtKichThuoc13.Enabled = False
                 End If
+                If FrmManHinhNhapDuLieu.lbn1.Text = "" Then
+                    FrmManHinhNhapDuLieu.CheckBox1.Enabled = False
+                End If
+                If FrmManHinhNhapDuLieu.lbn2.Text = "" Then
+                    FrmManHinhNhapDuLieu.CheckBox2.Enabled = False
+                End If
+                If FrmManHinhNhapDuLieu.lbn3.Text = "" Then
+                    FrmManHinhNhapDuLieu.CheckBox3.Enabled = False
+                End If
+                If FrmManHinhNhapDuLieu.lbn4.Text = "" Then
+                    FrmManHinhNhapDuLieu.CheckBox4.Enabled = False
+                End If
+                If FrmManHinhNhapDuLieu.lbn5.Text = "" Then
+                    FrmManHinhNhapDuLieu.CheckBox5.Enabled = False
+                End If
+                If FrmManHinhNhapDuLieu.lbn6.Text = "" Then
+                    FrmManHinhNhapDuLieu.CheckBox6.Enabled = False
+                End If
+                If FrmManHinhNhapDuLieu.lbn7.Text = "" Then
+                    FrmManHinhNhapDuLieu.CheckBox7.Enabled = False
+                End If
+                If FrmManHinhNhapDuLieu.lbn8.Text = "" Then
+                    FrmManHinhNhapDuLieu.CheckBox8.Enabled = False
+                End If
+                If FrmManHinhNhapDuLieu.lbn9.Text = "" Then
+                    FrmManHinhNhapDuLieu.CheckBox9.Enabled = False
+                End If
+                If FrmManHinhNhapDuLieu.lbn10.Text = "" Then
+                    FrmManHinhNhapDuLieu.CheckBox10.Enabled = False
+                End If
+                If FrmManHinhNhapDuLieu.lbn11.Text = "" Then
+                    FrmManHinhNhapDuLieu.CheckBox11.Enabled = False
+                End If
+                If FrmManHinhNhapDuLieu.lbn12.Text = "" Then
+                    FrmManHinhNhapDuLieu.CheckBox12.Enabled = False
+                End If
+                If FrmManHinhNhapDuLieu.lbn13.Text = "" Then
+                    FrmManHinhNhapDuLieu.CheckBox13.Enabled = False
+                End If
             Else
                 MsgBox("バーコードを見つけないです。確認して下さい。",, "エラーが発生しました。")
 
@@ -170,7 +222,7 @@ Public Class FrmNhapMaVach
         End If
     End Sub
 
-        Private Sub btnOK_Click(sender As Object, e As EventArgs) Handles btnOK.Click
+    Private Sub btnOK_Click(sender As Object, e As EventArgs) Handles btnOK.Click
         If IsEmty() Then
             MessageBox.Show("バーコードはまだ入力しない")
         Else
@@ -181,7 +233,7 @@ Public Class FrmNhapMaVach
 
             End If
         End If
-        End Sub
+    End Sub
 
     Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
         Me.Hide()
@@ -194,5 +246,5 @@ Public Class FrmNhapMaVach
 
     End Sub
 
-   
+
 End Class
